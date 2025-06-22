@@ -1,0 +1,77 @@
+---
+title: "提示語學習地圖：從提問者到語義設計師的五階段進化"
+author: "AI Coach & Hung-Hua Tien"
+date: "2025-06-22"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    mermaid:
+        enabled: true
+    self-contained: true
+  pdf:
+    pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \usepackage{ctex}
+        \usepackage{amsthm,mathrsfs}
+    fontsize: 11pt
+    linestretch: 1.5
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+execute:
+  echo: true
+  eval: true
+  output: true
+  warning: true
+  error: true
+editor: visual
+---
+
+> 為什麼我們會寫提示語，卻總是生成不出想要的結果？ 也許問題不是「如何向 AI 提問」，而是「如何設計語義」。
+
+------------------------------------------------------------------------
+
+## 📌 提示語學習五階段地圖 v2（Mermaid 圖）
+
+```{mermaid}
+flowchart TD
+    A1[**階段一：提問者**<br>🔹 模仿別人的提問<br>🔹 缺乏語義意識]
+    A2[**階段二：應用者** <br>🔹 知道任務目的<br>🔹 嘗試改寫提示語]
+    A3[**階段三：結構化使用者**<br>🔹 使用提示語框架<br>🔹 引入格式控制]
+    A4[**階段四：語義設計者** <br>🔹 拆解語義元素<br>🔹 建構提示語模組]
+    A5[**階段五：資料庫設計者** <br>🔹 管理語義變項庫<br>🔹 對應多任務與語境]
+
+    subgraph **使用者轉變**
+        A1 -->|掌握任務與格式| A2
+        A2 -->|開始使用提示語框架| A3
+        A3 -->|理解語義結構| A4
+        A4 -->|建構語義模組庫| A5
+    end
+```
+
+## 🧭 圖表說明（例如）
+
+這張地圖以五個階段描述使用者如何從「模仿提問者」進化為「語義設計師」：
+
+-   **階段一：提問者** – 模仿他人、不理解語義架構
+-   **階段二：操作者** – 掌握任務格式、但未必能控制輸出
+-   **階段三：對齊者** – 了解目標語義並做調整（如 few-shot）
+-   **階段四：設計師** – 能主動控制語義模組與語境
+-   **階段五：資料建構者** – 結合資料庫、語義框架與工具整合
+
+## 📦 延伸資源
+
+Github 與AI Choach 一起學習
+
+網址: https://hunghuatien.github.io/Learning-with-AI-Coach/
+
+FB AI Coach 教你學習粉絲頁
+
+網址: https://www.facebook.com/profile.php?id=61574504810303
+
+Medium AI Coach 專欄
+
+網址: https://medium.com/@aicoach.tw77/

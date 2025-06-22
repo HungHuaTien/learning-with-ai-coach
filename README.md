@@ -1,36 +1,58 @@
-# learning-with-ai-coach
-## 與AI Coach一起學習
+# Learning with AI Coach
+# 與AI Coach一起學習
 
-本專案為提示語教學與研究的資料彙整與公開發表平台，採用 [GitHub Pages](https://hunghuatien.github.io/learning-with-ai-coach/) 作為網站展示，並統一以下三種格式進行內容管理：
+本網站為提示語教學與研究的資料彙整與公開發表平台，統一採用 GitHub Pages作為展示。
 
-## 📁 專案結構 Project Structure
+網址:  [https://hunghuatien.github.io/learning-with-ai-coach/](https://hunghuatien.github.io/learning-with-ai-coach/)
 
-```markdown
-learning-with-ai-coach/
-├── semantic-prompt-map/
-│ ├── pdf/ # PDF 輸出版本
-│ ├── medium/ # Medium 發表版本（Markdown）
-│ ├── quarto/ # Quarto 原始碼（.qmd）
-│ │ └── figures/ # 圖檔（如 PNG）集中於此
-```
 
-- 所有子目錄名稱皆為 **小寫**，便於 GitHub Pages 正確辨識與連結。
-- 所有文章與檔案使用一致命名，如 `prompt-learning-map.qmd` / `.pdf` / `.md`。
 
-## 🧠 教學與研究主題
+## 📁 Project: Co-Prompt 
+
+### 🧠 教學與研究主題
+
+Co-Prompt專案包含由 AI Coach 和 Hung-Hua Tien 共同撰寫的 Medium 系列文章，專注於提示語架構與生成應用的研究與教學實踐。
 
 - 提示語學習五階段地圖
 - C–CAFE–C 框架
 - 語義模組資料庫（動詞、格式、角色等）
 - AI 教學應用與語義控制研究
 
-## 📄 網站與連結
+### 📁  Co-Prompt專案結構 
 
-GitHub Pages 網址：  
-👉 [https://hunghuatien.github.io/learning-with-ai-coach/](https://hunghuatien.github.io/learning-with-ai-coach/)
+語義提示語 × 教學文章 × 多格式整合（Quarto｜Medium｜PDF）
 
-目前上架文章清單與連結，請見首頁 `index.md` 或 `semantic-prompt-map/` 目錄。
+- `quarto/`：Quarto 原始稿（可轉換成網站與 PDF）
+- `medium/`：Medium 發表用 Markdown 版本
+- `pdf/`：排版完成的 PDF 教案或論文
+- `figures/`：圖表檔案
+
+```markdown
+learning-with-ai-coach/
+├── project co-prompt/
+│   ├── pdf/           # PDF 輸出版本（教案、論文）
+│   ├── medium/        # Medium 發表版本（轉存 Markdown）
+│   ├── quarto/        # Quarto 原始碼（.qmd）
+│   │   └── figures/   # 所有圖檔與 Mermaid 視覺化
+│   └── README.md      # 可加入該 project 簡介與檔案一覽表
+
+```
+
+- 所有子目錄名稱皆為 **小寫**，便於 GitHub Pages 正確辨識與連結。
+- 所有文章與檔案使用一致命名，如 `prompt-learning-map.qmd` / `.pdf` / `.md`。
+
+### 📚 已發表文章一覽
+
+| 主題                                                 | 日期       | Quarto                                | Medium                              | PDF                                |
+| ---------------------------------------------------- | ---------- | ------------------------------------- | ----------------------------------- | ---------------------------------- |
+| **提示語學習地圖：從提問者到語義設計師的五階段進化** | 2025-06-23 | [qmd](quarto/prompt-learning-map.qmd) | [md](medium/prompt-learning-map.md) | [pdf](pdf/prompt-learning-map.pdf) |
 
 ---
 
-> 若有任何問題，請聯繫田弘華老師或 AI Coach 🤝
+
+
+## 📧若有任何問題，請聯繫: 
+
+**Hung-Hua Tien** (田弘華)｜ francis@mail.shu.edu.tw  
+**AI Coach**（語義架構共同設計與撰稿）
+
