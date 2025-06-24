@@ -60,7 +60,7 @@ learning-with-ai-coach/
 | Stage 3：技能——做得好，帶得動         | 2025-06-24 | [qmd](quarto/stage3-skill.qmd)        | [md](medium/stage3-skill.md)        | [pdf](pdf/stage3-skill.pdf)        |
 | Stage 4：未來——走下去             | 2025-06-24 | [qmd](quarto/stage4-future.qmd)       | [md](medium/stage4-future.md)       | [pdf](pdf/stage4-future.pdf)       |
 | CAFEC 是語法，不是格式：語義雙主體時代的語言設計 | 2025-06-24 | [qmd](quarto/cafec-grammar.qmd)       | [md](medium/cafec-grammar.md)       | [pdf](pdf/cafec-grammar.pdf)       |
-|AI時代，高等教育該教什麼|2025-06-24| [qmd](quarto/Ai Edu Transformation.qmd)       | [md](medium/Ai Edu Transformation.md)       | [pdf](pdf/Ai Edu Transformation.pdf)       |
+|AI時代，高等教育該教什麼|2025-06-24| [qmd](quarto/Ai-Edu-Transformation.qmd)       | [md](medium/Ai-Edu-Transformation.md)       | [pdf](pdf/Ai-Edu-Transformation.pdf)       |
 
 ---
 
