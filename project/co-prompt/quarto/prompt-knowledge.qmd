@@ -1,0 +1,125 @@
+---
+title: "提示語知識體系三層模型：從語法、策略到應用"
+author: "AI Coach（柯以文）& Hung-Hua Tien （田弘華）"
+date: "2025-06-26"
+categories: [Prompt Engineering, Semantic Framework, C-CAFE-C, 教學文章, Medium]
+tags: [CAFEC, Prompt Design, Semantic Structure, 教學設計, AI應用, 語義控制]
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    mermaid:
+      enabled: true
+    self-contained: true
+  pdf:
+    pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \usepackage{ctex}
+        \usepackage{amsthm,mathrsfs}
+    fontsize: 11pt
+    linestretch: 1.5
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+execute:
+  echo: false
+  eval: true
+  output: false
+  warning: false
+  error: false
+editor: visual
+---
+
+## ✨ 引言：為何需要一個提示語知識體系？
+
+在人機協作日益深化的時代，提示語（Prompt）已從簡單的指令演變為一個整合語法、技術與應用的複雜系統。本文旨在提出一個系統性的三層知識架構，不僅幫助我們精準地理解、設計並應用提示語，更為未來的學習、研究與實務提供一份清晰的發展藍圖。
+
+------------------------------------------------------------------------
+
+## 🧱 模型總覽：提示語知識體系三層架構
+
+以下 Mermaid 圖呈現整體模型架構，分為三大層級，並結合 C-CAFE-C 語義元素與提示語工程核心模組：
+
+```{mermaid}
+%%{init: {'theme':'base', 'themeVariables': {'fontSize':'14px'}}}%%
+graph TD
+    A[**提示語知識體系 <br>Prompt Knowledge System**]
+    A --> A1[**語義語法層**<br/>C-CAFE-C Elements\n<i>提示語的語義骨架</i>]
+    A --> A2[**技術策略層**<br/>Prompt Engineering Strategies\n<i>增強 AI 能力的技術模組</i>]
+    A --> A3[**應用整合層**<br/>Prompt in Context & Application\n<i>連結實務應用與知識轉化</i>]
+
+    A1 --> A1a[**Process** <br>**Character** / 角色 <br> **Action** / 任務]
+    A1 --> A1b[**Output** <br>**Format** / 格式 <br>**Example** / 範例 ]
+    A1 --> A1c[**Input** <br> **Constraint** / 限制 <br> **Context** / 情境]
+
+    A2 --> A2a[**推理增強**<br/>CoT / ToT <br> Self-Correction]
+    A2 --> A2b[**語義控制**<br/>Template <br> Parsing]
+    A2 --> A2c[**流程管理**<br/>Meta Prompt <br> Workflow]
+    A2 --> A2d[**語義安全**<br/>SemSec <br> Debug]
+
+    A3 --> A3a[**任務場景應用**<br/>教學 / 研究 / 生產力]
+    A3 --> A3b[**工具鏈整合**<br/>n8n / RAG / LangChain]
+    A3 --> A3c[**知識庫建構**<br/>語義卡 <br> 模組包]
+    A3 --> A3d[**評估與優化**<br/>A/B 測試 <br> 效能分析]
+
+    classDef darkBlue fill:#1E3A8A,stroke:#374151,stroke-width:2px,color:#FFFFFF;
+    classDef lightBlue fill:#93C5FD,stroke:#1E3A8A,stroke-width:2px,color:#1F2937;
+    classDef white fill:#FFFFFF,stroke:#1F2937,stroke-width:2px,color:#1F2937;
+
+    class A darkBlue;
+    class A1,A2,A3 lightBlue;
+    class A1a,A1b,A1c,A2a,A2b,A2c,A2d,A3a,A3b,A3c,A3d white;
+```
+
+------------------------------------------------------------------------
+
+## 🧩 架構詳解：CAFEC 三層模型說明
+
+### 第一層：語義語法層 CAFEC
+
+六個核心語義元素遵循 MECE 原則（Mutually Exclusive, Collectively Exhaustive）：
+
+-   **Character（角色）**：設定 AI 身分與目標對象。
+-   **Action（任務）**：明確描述任務與執行邏輯。
+-   **Format（格式）**：定義輸出形式與框架。
+-   **Example（範例）**：引導樣本生成（Zero/Few/Many-shot）。
+-   **Constraint（限制）**：規範輸出參數與風格界線。
+-   **Context（情境）**：補充執行背景與平台環境。
+
+### 第二層：技術策略層
+
+提示語工程的關鍵增強模組：
+
+-   **推理強化**：CoT、ToT、Self-correction。
+-   **語義控制**：Parsing、Template 設計。
+-   **流程管理**：Meta Prompt、Prompt as Code。
+-   **語義安全**：限制、除錯、風險控管技術。
+
+### 第三層：應用整合層
+
+強調提示語的落地應用與可持續開發：
+
+-   **場景設計**：教學、研究與生產力任務。
+-   **工具鏈整合**：n8n、LangChain、RAG 框架。
+-   **知識庫模組**：語義卡、模組包、樣式庫。
+-   **優化機制**：A/B 測試、效能分析、精煉回饋。
+
+------------------------------------------------------------------------
+
+## 🧠 學習者成長路徑圖
+
+| 階段 | 層級對應 | 學習目標 | 產出成果 |
+|----------------|----------------|--------------------------|----------------|
+| 基礎掌握 | L1 語義語法層 | 能清晰、結構化地與 AI 溝通 | 撰寫高品質的單輪提示語 |
+| 策略應用 | L2 技術策略層 | 能引導 AI 完成複雜任務，並控制產出品質 | 建立多步驟提示語與可複用模板 |
+| 整合創新 | L3 應用整合層 | 將提示語整合進工具與流程，創造真實應用場景之價值 | 開發小型 AI 應用與自動化工作流程 |
+
+------------------------------------------------------------------------
+
+## 🏁 結語
+
+這套三層提示語知識體系，是人機協作時代的語義地圖。我們可以從語法骨架出發，逐步建立策略模組與應用實力，開創屬於自己的提示語學習與創作之路。
+
+## 👉 歡迎加入我們的 GitHub 專案 [`learning-with-ai-coach`](https://github.com/your-repo) 與更多人一起探索人機共創的新典範！
