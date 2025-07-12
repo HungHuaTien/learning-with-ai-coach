@@ -97,3 +97,44 @@ graph TD
 👉 歡迎加入我們的 GitHub 專案 [`learning-with-ai-coach`]( https://hunghuatien.github.io/learning-with-ai-coach/) 與更多人一起探索人機共創的新典範！
 
 ---
+
+---
+
+## 📎 附錄 Appendix：C–CAFE–C 與傳統元素分類對位圖
+
+## 🧠 視覺化語義對位圖（Mermaid 格式）
+
+```mermaid
+graph TD
+  subgraph 傳統提示語分類
+    T[Task]
+    O[Objective]
+    R[Role]
+    A[Audience]
+    S[Situation]
+    F[Format]
+    E[Example]
+    C[Constraint]
+  end
+
+  subgraph "C-CAFE-C模組"
+    CT[Context]
+    CH[Character]
+    AC[Action]
+    FM[Format]
+    EX[Example]
+    CN[Constraint]
+  end
+
+  T --> AC
+  O --> CT
+  O --> CH
+  R --> CH
+  A --> CH
+  S --> CT
+  F --> FM
+  E --> EX
+  C --> CN
+```
+
+此圖說明傳統 Task / Objective / Role / Format… 等分類，如何整併至 C–CAFE–C 六大模組。
