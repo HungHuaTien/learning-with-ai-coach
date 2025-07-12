@@ -41,18 +41,18 @@ learning-with-ai-coach/
 
 ### 📝 已發表文章一覽
 
+| 主題                             | 日期       | Medium                              |
+| ------------------------------------------------ | ---------- | ----------------------------------- |
+| 提示語學習地圖：從提問者到語義設計師的五階段進化 | 2025-06-23 | [md](medium/prompt-learning-map.md) |
+| Stage 1：起點——想清楚，說得出來                  | 2025-06-23 | [md](medium/stage1-thinking.md)     |
+| Stage 2：明確——說明白，講得清楚                  | 2025-06-23 | [md](medium/stage2-clarify.md)      |
+| Stage 3：技能——做得好，帶得動                    | 2025-06-24 | [md](medium/stage3-skill.md)        |
+| Stage 4：未來——走下去                            | 2025-06-24 | [md](medium/stage4-future.md)       |
+| CAFEC 是語法，不是格式：語義雙主體時代的語言設計 | 2025-06-24 | [md](medium/cafec-grammar.md)       |
+| 提⽰語知識體系三層模型：從語法、策略到應⽤       | 2025-06-26 | [md](medium/prompt-knowledge.md)                                  |
+|從元素堆疊到語義模組：你誤會 C–CAFE–C 的地方，其實大家都會誤會|2025-07-12|[md](medium/C-CAFE-C-1.md)|
+||||
 
-| 主題    | 日期       | Quarto  | Medium          | PDF               |
-| -------- | ---------- | ----- | ---------------- | ------------- |
-| 提示語學習地圖：從提問者到語義設計師的五階段進化 | 2025-06-23 | [qmd](quarto/prompt-learning-map.qmd)  | [md](medium/prompt-learning-map.md)  | [pdf](pdf/prompt-learning-map.pdf)  |
-| Stage 1：起點——想清楚，說得出來                  | 2025-06-23 | [qmd](quarto/stage1-thinking.qmd)      | [md](medium/stage1-thinking.md)      | [pdf](pdf/stage1-thinking.pdf)      |
-| Stage 2：明確——說明白，講得清楚                  | 2025-06-23 | [qmd](quarto/stage2-clarify.qmd)       | [md](medium/stage2-clarify.md)       | [pdf](pdf/stage2-clarify.pdf)       |
-| Stage 3：技能——做得好，帶得動                    | 2025-06-24 | [qmd](quarto/stage3-skill.qmd)         | [md](medium/stage3-skill.md)         | [pdf](pdf/stage3-skill.pdf)         |
-| Stage 4：未來——走下去                            | 2025-06-24 | [qmd](quarto/stage4-future.qmd)        | [md](medium/stage4-future.md)        | [pdf](pdf/stage4-future.pdf)        |
-| CAFEC 是語法，不是格式：語義雙主體時代的語言設計 | 2025-06-24 | [qmd](quarto/cafec-grammar.qmd)        | [md](medium/cafec-grammar.md)        | [pdf](pdf/cafec-grammar.pdf)        |
-| 提⽰語知識體系三層模型：從語法、策略到應⽤ | 2025-06-26 | [qmd](quarto/prompt-knowledge.qmd)        | [md](medium/prompt-knowledge.md)        | [pdf](pdf/prompt-knowledge.pdf)        |
-
----
 
 ---
 
