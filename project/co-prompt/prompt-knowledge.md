@@ -102,28 +102,28 @@ graph TD
 
 ## 📎 附錄 Appendix：C–CAFE–C 與傳統元素分類對位圖
 
-## 🧠 視覺化語義對位圖（Mermaid 格式）
+以下為傳統提示語元素（如 Task、Objective、Role 等）與 C–CAFE–C 語義模組的整合對位圖。透過視覺化方式，協助理解不同分類框架在語義功能上的對應關係與整併邏輯：
 
 ```mermaid
 graph TD
   subgraph 傳統提示語分類
-    T[Task]
-    O[Objective]
-    R[Role]
-    A[Audience]
-    S[Situation]
-    F[Format]
-    E[Example]
-    C[Constraint]
+    T(Task)
+    O(Objective)
+    R(Role)
+    A(Audience)
+    S(Situation)
+    F(Format)
+    E(Example)
+    C(Constraint)
   end
 
-  subgraph "C-CAFE-C模組"
-    CT[Context]
-    CH[Character]
-    AC[Action]
-    FM[Format]
-    EX[Example]
-    CN[Constraint]
+  subgraph "C–CAFE–C 模組"
+    CT(Context)
+    CH(Character)
+    AC(Action)
+    FM(Format)
+    EX(Example)
+    CN(Constraint)
   end
 
   T --> AC
@@ -137,4 +137,9 @@ graph TD
   C --> CN
 ```
 
-此圖說明傳統 Task / Objective / Role / Format… 等分類，如何整併至 C–CAFE–C 六大模組。
+📌 說明：
+
+- Task（任務）對應 Action 模組，代表語義動作主軸。
+- Objective 對應 Context + Character，是目標的語用整合。
+- 角色與語氣設定元素（Role / Audience）併入 Character。
+- 輸出樣式、風格限制、語氣引導等元素皆精準落入 Format、Constraint、Example 等模組中。
