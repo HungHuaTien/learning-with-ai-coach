@@ -51,7 +51,7 @@ learning-with-ai-coach/
 | CAFEC 是語法，不是格式：語義雙主體時代的語言設計 | 2025-06-24 | [md](medium/cafec-grammar.md)       |
 | 提⽰語知識體系三層模型：從語法、策略到應⽤       | 2025-06-26 | [md](medium/prompt-knowledge.md)                                  |
 |從元素堆疊到語義模組：你誤會 C–CAFE–C 的地方，其實大家都會誤會|2025-07-12|[md](medium/C-CAFE-C-1.md)|
-||||
+|Character 模組教學：Role × Audience × 語氣設計 × 語法對應|2025-07-12|[md](medium/C-CAFE-C-2.md)|
 
 
 ---
