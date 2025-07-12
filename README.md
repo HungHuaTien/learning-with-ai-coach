@@ -14,6 +14,9 @@
 ### 主題2: 📁thinking-in-ai-era
 
 
+## 📚資料庫: semantic-prompt-database
+### 主題1: 📁 prompt-annotation-examples/
+### 主題2: 📁 pattern-experiments/
 
 ---
 
