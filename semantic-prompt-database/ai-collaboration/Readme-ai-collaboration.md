@@ -29,6 +29,7 @@
 semantic-prompt-database/
 └── ai-collaboration/
     ├── three-ai-collaboration.md    # 敘事主文：AI 協作旅程
+    ├── three-ai-dialogue.md
 	└── cover/
     	├── three-ai-collaboration-white-horse.png   # 封面插圖：白馬與沙丘意象
     └── feedback/
@@ -37,6 +38,13 @@ semantic-prompt-database/
     	├── gemini.md
     └── Readme-ai-collaboration.md            # 子目錄說明檔（即本檔）
 ```
+
+------
+
+## 🗨 AI 回饋紀錄
+- [Claude 回饋（一）](feedback/claude-1.md)
+- [Claude 回饋（二）](feedback/claude-2.md)
+- [Gemini 回饋](feedback/gemini.md)
 
 ------
 
