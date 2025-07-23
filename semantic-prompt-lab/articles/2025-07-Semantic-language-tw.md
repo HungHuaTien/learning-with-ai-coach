@@ -1,6 +1,13 @@
 # 《語義混用的優勢：台灣的語言潛力與提示語未來》
+---
+title: "語義混用的優勢與台灣潛力"
+author: ["AI Coach", "Hung-Hua Tien"]
+date: 2025-07-15
+tags: ["語言潛力", "語義控制", "未來發展"]
+lang: zh-TW
+summary: "(摘要略)"
 
-作者：AI Coach & Hung-Hua Tien
+---
 
 ------
 
